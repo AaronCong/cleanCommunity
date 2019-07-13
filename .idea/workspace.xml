@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0048c3d4-fb1e-49ce-9cf4-b7bb6d80c1a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/persist/DAO/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/persist/DAO/userDAO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/route/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/route/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/route/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cleanCommunity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cleanCommunity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/createDataBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/createDataBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/persist/models/Dialog.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/persist/models/Dialog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/persist/models/Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/persist/models/Order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/persist/models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/persist/models/User.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/persist/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/codes/persist/models/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="0048c3d4-fb1e-49ce-9cf4-b7bb6d80c1a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +10,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/cleanCommunity$cleanCommunity.coverage" NAME="cleanCommunity Coverage Results" MODIFIED="1563006810544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cleanCommunity$createDataBase.coverage" NAME="createDataBase Coverage Results" MODIFIED="1563007795489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes" />
+    <SUITE FILE_PATH="coverage/cleanCommunity$createDataBase.coverage" NAME="createDataBase Coverage Results" MODIFIED="1563016981532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/codes" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -286,22 +270,29 @@
       <updated>1563001582179</updated>
       <workItem from="1563001583490" duration="2397000" />
     </task>
+    <task id="LOCAL-00001" summary="login">
+      <created>1563016236223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563016236223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6497000" />
+    <option name="totallyTimeSpent" value="7116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="834" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2537112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2537112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1585903" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.111600585" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4596182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -320,6 +311,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/main.css">
