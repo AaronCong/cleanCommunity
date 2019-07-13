@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-import config
+from codes import config
 from codes.persist.database import db
 from codes.persist.models import *
 import os

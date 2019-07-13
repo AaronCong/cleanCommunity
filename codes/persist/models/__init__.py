@@ -1,1 +1,1 @@
-__all__ = ['Dialog', 'User', 'Order']
+__all__ = ["Dialog", "User", "Order"]

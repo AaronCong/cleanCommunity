@@ -1,5 +1,5 @@
 dbhost = 'localhost:3306'
 dbuser = 'root'
-dbpass = 'root'
+dbpass = 'admin'
 dbname = 'cleanCommunity'
-DB_URI = 'mysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' + dbname
+DB_URI = 'mysql+pymysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' + dbname
