@@ -1,4 +1,4 @@
-from flask import render_template, request, flash, Blueprint, redirect, url_for
+from flask import render_template, request, flash, Blueprint, redirect, url_for, jsonify
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
 from codes.persist.models.User import User
 from codes.persist.database import db
@@ -12,7 +12,7 @@ login_bp = Blueprint("login", __name__)
 
 @loginManager.user_loader
 def load_user(username):
-    return User.query.filter(User.username == username).first()
+    return User.query.filter(User.uname == username).first()
 
 
 @login_bp.route('/login', methods=['GET', 'POST'])
@@ -24,15 +24,18 @@ def login():
         # 验证表单中提交的用户名和密码
         if user is not None and request.form['password'] == user.password:
             # 通过Flask-Login的login_user方法登录用户
-            success = login_user(user)
-            if type:
-                return redirect(url_for('search.searchDumper'))
-            else:
-                return redirect(url_for('search.history'))
+            success = login_user(user, True)
+            next = request.args.get('next')
+
+            return jsonify("success")
+            # return redirect(next or url_for('index.home'))
+                # return redirect(url_for('search.searchDumper'))
+                # return redirect(url_for('search.history'))
         else:
-            flash('用户名或密码错误！')
+            return jsonify('fail')
+            # flash('用户名或密码错误！')
     # GET 请求
-    return render_template('login.html')
+    return render_template('index.html')
 
 
 @login_bp.route("/logout")
