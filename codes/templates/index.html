@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Item Recommendation">
+        <meta name="author" content="Your Name">
+        <title>Item Recommendation Final</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../static/css/main.css">
+      </head>
+      <body>
+        <header class="top-header">
+            <nav class="top-nav">
+              <a href="#">Home</a>
+              <a href="#">Contact</a>
+              <a href="#">About</a>
+            </nav>
+            <span id="welcome-msg"></span>
+            <a id="logout-link" href="/logout">Logout</a>
+            <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+        </header>
+          <div class="container">
+              <section class="main-section">
+                    <div id="login-form">
+                        <div id="login-info">
+                            <label for="username">Username:</label>
+                            <input id="username" name="username" type="text">
+                            <label for="password">Password:</label>
+                            <input id="password" name="password" type="password">
+                        </div>
+
+                        <div id="dumper">
+                            <input id="is-dumper" name="is-dumper" type="checkbox">
+                            <label for="is-dumper">I am a helper</label>
+                        </div>
+                        <br>
+                        <button id="register-form-btn">New User? Register</button>
+                        <button id="login-btn">Login</button>
+                        <p id="login-error"></p>
+                    </div>
+                          
+                    <div id="register-form">
+                        <label for="username">Username: *</label>
+                        <input id="register-username" name="username" type="text">
+                        <label for="password">Password: *</label>
+                        <input id="register-password" name="password" type="password">
+                        <label for="apt-lat">Apartment Latitude: *</label>
+                        <input id="apt-lat" name="apt-lat" type="text">
+                        <label for="apt-lon">Apartment Longitude: *</label>
+                        <input id="apt-lon" name="apt-lon" type="text">
+                        <a id="dumper" href="#">Dumper</a>
+                        <button id="login-form-btn">Back to Login</button>
+                        <button id="register-btn">Register</button>
+                        <p id="register-result"></p>
+                    </div>
+                    <div id="register-form-dumper">
+                        <label for="username-dumper">Username: *</label>
+                        <input id="register-username-dumper" name="username" type="text">
+                        <label for="password-dumper">Password: *</label>
+                        <input id="register-password-dumper" name="password" type="password">
+                        <a id="non-dumper" href="#">client</a>
+                        <button id="login-form-btn-dumper">Back to Login</button>
+                        <button id="register-btn-dumper">Register</button>
+                        <p id="register-result-dumper"></p>
+                    </div>
+
+                    <aside id="item-nav">
+                        <div class="nav-icon">
+                          <i class="fa fa-sitemap fa-2x"></i>
+                        </div>
+                        <nav class="main-nav">
+                          <a href="#" id="nearby-btn" class="main-nav-btn active">
+                            <i class="fa fa-map-marker"></i> Nearby
+                          </a>
+
+                        </nav>
+                      </aside>
+
+                  <aside id="item-nav-dumper">
+                        <div class="nav-icon">
+                          <i class="fa fa-sitemap fa-2x"></i>
+                        </div>
+                        <nav class="main-nav">
+
+                          <a href="#" id="fav-btn" class="main-nav-btn">
+                            <i class="fa fa-heart"></i> History
+                          </a>
+
+                        </nav>
+                      </aside>
+                      
+                      <ul id="item-list">
+
+                        </ul>
+              </section>
+          </div>
+
+          <footer>
+              <p class="title">What We Do</p>
+              <p>"Make our community a better place."</p>
+              <ul>
+                <li>
+                  <p><i class="fa fa-map-o fa-2x"></i></p>
+                  <p>cleanCommunity office, CA</p>
+                </li>
+                <li>
+                  <p><i class="fa fa-envelope-o fa-2x"></i></p>
+                  <p>info@cleanCommunity.com</p>
+                </li>
+                <li>
+                  <p><i class="fa fa-phone fa-2x"></i></p>
+                  <p>+1 314 685 5410</p>
+                </li>
+              </ul>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+          <script src="https://rawgit.com/emn178/js-md5/master/build/md5.min.js"></script>
+          <script type="text/javascript" src="../static/js/main.js"></script>
+      </body>
+</html>

@@ -15,6 +15,7 @@ class User(BaseModel, UserMixin):
     apt_lon = db.Column(db.Float)
     cur_lat = db.Column(db.Float)
     cur_lon = db.Column(db.Float)
+    img = db.Column(db.String(1000))
     oid = db.relationship('Order', backref='user')
 
     def __init__(self, uname, password, status, phone, apt_lat, apt_lon):
