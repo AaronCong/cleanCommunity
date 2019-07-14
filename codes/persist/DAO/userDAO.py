@@ -8,6 +8,6 @@ def searchDumper(user):
     for helper in helperList:
         x = userLon - helper.cur_lon
         y = userLat - helper.cur_lat
-        distance.append({'helperName':helper.uname,'helperID':helper.id,'distance': math.sqrt(x**2+y**2)})
+        distance.append({'helperName':helper.uname,'helperID':helper.id,'distance': math.sqrt(x**2+y**2),'img':helper.img})
     closest = heapq.nsmallest(5, distance, key=lambda x:x['distance'])
     return closest

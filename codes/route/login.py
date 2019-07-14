@@ -28,6 +28,7 @@ def login():
             next = request.args.get('next')
 
             return jsonify("success")
+            # return jsonify(loggedIn=True, redirectUrl=next or url_for('index.home'))
             # return redirect(next or url_for('index.home'))
                 # return redirect(url_for('search.searchDumper'))
                 # return redirect(url_for('search.history'))

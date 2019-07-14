@@ -10,7 +10,7 @@ index_bp = Blueprint('index',__name__)
 @index_bp.route('/index', methods=['GET','POST'])
 @login_required
 def home():
-    if current_user.status == 1:
+    if current_user.status == 2:
         return redirect('search.searchDumper')
     return redirect('search.listHistory')
 

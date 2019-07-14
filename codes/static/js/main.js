@@ -267,7 +267,7 @@
             className: 'item'
         });
         li.appendChild($create('img', {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJWcJHT6Eh9AKVhXcG0_qmBdvqkt-st5YaoJUIerSMC4bmNpj'
+            src: helper.img
         }));
         var section = $create('div');
         var title = $create('a', {
@@ -312,7 +312,7 @@
             className: 'item'
         });
         li.appendChild($create('img', {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAJWcJHT6Eh9AKVhXcG0_qmBdvqkt-st5YaoJUIerSMC4bmNpj'
+            src: helper.img
         }));
         var section = $create('div');
         var title = $create('a', {
